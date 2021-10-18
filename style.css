@@ -37,8 +37,9 @@ body{
     flex-wrap: wrap;
 }
 
+
 .select-tip{
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .tip-type{
@@ -84,6 +85,7 @@ body{
 }
 
 .output{
+    padding-top: 10px;
     height: 500px;
     width: 500px;
     background-color: darkslategray;
@@ -99,6 +101,24 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
+}
+
+.button-output{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.reset-button{
+    background-color: rgb(32, 199, 32);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 500px;
+    height: 50px;
 }
 
 
