@@ -21,6 +21,10 @@ body{
     text-transform: uppercase;
 }
 
+.button-text{
+    color: whitesmoke;
+}
+
 .calculator{
     background-color: honeydew;
     height: 500px;
@@ -38,12 +42,11 @@ body{
 }
 
 .tip-type{
-    background-color: lightgrey;
     width: 50%;
     height: 30%;
 }
 
-button{
+.button-text{
     background-color: darkgreen;
     padding: 15px 32px;
     text-align: center;
@@ -54,12 +57,15 @@ button{
 }
 
 
-.custom-button{
+.custom-button-text{
+    background-color: grey;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
 }
 
 
@@ -84,11 +90,9 @@ button{
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    color: ivory;
 }
 
-.tipamount{
-    font-size: 20px;
-    font-style: normal;
-}
+
