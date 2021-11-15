@@ -30,14 +30,14 @@ body{
     height: 500px;
     width: 1000px;
     border-radius: 15px;
-    padding: 20px;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-#bill-input{
+#bill-input,
+#num-of-people{
     outline: none;
     border: none;
     border-radius: 5%;
@@ -53,9 +53,9 @@ body{
 
 
 
-.select-tip{
-    padding-top: 100px;
-}
+/* .select-tip{
+    padding-top: 20px;
+} */
 
 .tip-type{
     width: 50%;
@@ -95,9 +95,9 @@ body{
     flex-wrap: wrap;
 }
 
-.num-of-people{
+/* .num-of-people{
     padding-top: 10%;
-}
+} */
 
 .output{
     padding-top: 10px;
@@ -118,7 +118,7 @@ body{
     padding-left: 20px;
 }
 
-.button-output{
+.reset-button{
     height: 100vh;
     display: flex;
     justify-content: center;

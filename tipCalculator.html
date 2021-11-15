@@ -22,8 +22,8 @@
                 
             <!--BILL INPUT-->
                     <div class="bill-title">
-                        Bill 
-                            <input type="text" id="bill-input" placeholder="0">
+                    Bill 
+                        <input type="text" id="bill-input" placeholder="0">
                     </div>
 
 
@@ -63,30 +63,39 @@
                         </div>
                     </div>
 
-                    
+                    <!--NUM OF PEOPLE-->
                     <div class="num-of-people">
-                        <div class="bill-title">Number of People</div>
-                        <input type="text" placeholder="0">
+                        Number of People
+                        <input type="text" id="num-of-people" placeholder="0">
                     </div>
                 
         
             <!--Tip Amount and Totals Display-->
             <div class="output">
                 
-                Tip Amount:
-                <div class="outfield">
-                    <output class="tipamount" type="text">
+                <div class="tip-amount-container">
+                    Tip Amount:
+                    <small>/ person</small>
+                    <div class="outfield">
+                        <output class="tipamount" type="text">
+                        <span id="tip-value">$0.00</span>
+                    </div>
+            </div>
                 
-                
-                Total:
-                
-                    <output class="price-total" type="text">
+                <div class="total-container">
+                    Total:
+                    <small>/ person</small>
+                    <div class="outfield">
+                        <output class="price-total" type="text">
+                        <span id="total-value">$0.00</span>
+                    </div>
+                    
                 </div>
 
-                <div class="button-output">
-                    <button class="reset-button">Reset</button>
-                </div>
-                
+               
+                <!--RESET BUTTON--> 
+                <button class="reset-button">Reset</button>
+                    
             </div>
     
         </div>
