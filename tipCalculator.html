@@ -21,21 +21,16 @@
         <div class="calculator">
                 
             <!--BILL INPUT-->
-                    <div class="bill-title">
-                    Bill 
+                    
+                    <h3>Bill</h3> 
                         <input type="text" id="bill-input" placeholder="0">
-                    </div>
+                    
+                    <h3>Select Tip %</h3>
+                    
 
 
-                    <div class="select-tip">
-                        Select Tip %
-                    </div>
-
-
+                    <!-- Buttons -->
                     <div class="tip-type"> 
-
-                        <!-- Buttons -->
-
                         <div class="first-row">
                             
                                 <button class="button-text">5%</button>
@@ -44,12 +39,9 @@
                                 <button class="button-text">10%</button>
                             
                             
-                                <button class="button-text">15%</button>
-                            
+                                <button class="button-text">15%</button> 
                         </div>
 
-
-                        
                         <div class="second-row">
                             
                                 <button class="button-text">20%</button>
@@ -58,29 +50,29 @@
                                 <button class="button-text">50%</button>
                            
                             
-                                <button class="custom-button-text">Custom</button>
-                            
+                                <button class="custom-button-text" id="custom">Custom</button>
                         </div>
                     </div>
 
+
                     <!--NUM OF PEOPLE-->
-                    <div class="num-of-people">
-                        Number of People
-                        <input type="text" id="num-of-people" placeholder="0">
-                    </div>
+                    
+                        <h3>Number of People</h3>
+                            <input type="text" id="num-of-people" placeholder="0">
+                    
                 
         
             <!--Tip Amount and Totals Display-->
             <div class="output">
                 
                 <div class="tip-amount-container">
-                    Tip Amount:
-                    <small>/ person</small>
+                    <p class="tip-amount">Tip Amount:</p>
+                    <small class="small-display">/ person</small>
                     <div class="outfield">
                         <output class="tipamount" type="text">
                         <span id="tip-value">$0.00</span>
                     </div>
-            </div>
+                </div>
                 
                 <div class="total-container">
                     Total:
